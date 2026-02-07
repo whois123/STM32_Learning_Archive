@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"3_2\startup_stm32f103xe.o"
+"3_2\main.o"
+"3_2\gpio.o"
+"3_2\dma.o"
+"3_2\tim.o"
+"3_2\usart.o"
+"3_2\stm32f1xx_it.o"
+"3_2\stm32f1xx_hal_msp.o"
+"3_2\stm32f1xx_hal_gpio_ex.o"
+"3_2\stm32f1xx_hal_tim.o"
+"3_2\stm32f1xx_hal_tim_ex.o"
+"3_2\stm32f1xx_hal.o"
+"3_2\stm32f1xx_hal_rcc.o"
+"3_2\stm32f1xx_hal_rcc_ex.o"
+"3_2\stm32f1xx_hal_gpio.o"
+"3_2\stm32f1xx_hal_dma.o"
+"3_2\stm32f1xx_hal_cortex.o"
+"3_2\stm32f1xx_hal_pwr.o"
+"3_2\stm32f1xx_hal_flash.o"
+"3_2\stm32f1xx_hal_flash_ex.o"
+"3_2\stm32f1xx_hal_exti.o"
+"3_2\stm32f1xx_hal_uart.o"
+"3_2\system_stm32f1xx.o"
+--strict --scatter "3_2\3_2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "3_2.map" -o 3_2\3_2.axf

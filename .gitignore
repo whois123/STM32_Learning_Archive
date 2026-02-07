@@ -1,0 +1,36 @@
+# =====================
+# Keil uVision
+# =====================
+Objects/
+Debug/
+Listings/
+
+*.o
+*.d
+*.crf
+*.lst
+*.map
+*.axf
+*.hex
+*.bin
+
+*.uvguix.*
+*.uvgui.*
+*.scvd
+*.bak
+
+# =====================
+# CubeMX
+# =====================
+*.mxproject
+*.tmp
+*.log
+
+# =====================
+# System / Editor
+# =====================
+.vscode/
+.idea/
+*.swp
+*.DS_Store
+Thumbs.db
