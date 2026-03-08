@@ -1,0 +1,26 @@
+
+
+GraphedExpression="speed", Color=#e56a6f
+GraphedExpression="pwm", Color=#35792b, Show=0
+GraphedExpression="angle", Color=#769dda, Show=0
+GraphedExpression="target_pos", Color=#b14f0d, Show=0
+GraphedExpression="target_speed", Color=#b3c38e
+OpenDocument="main.c", FilePath="D:/Desktop/JGB37_520_Test/Core/Src/main.c", Line=297
+OpenDocument="PID.c", FilePath="D:/Desktop/JGB37_520_Test/Control/PID/PID.c", Line=60
+OpenDocument="startup_stm32f103xe.s", FilePath="D:/Desktop/JGB37_520_Test/startup_stm32f103xe.s", Line=52
+OpenDocument="stm32f1xx_it.c", FilePath="D:/Desktop/JGB37_520_Test/Core/Src/stm32f1xx_it.c", Line=79
+OpenDocument="Motor.c", FilePath="D:/Desktop/JGB37_520_Test/Motor/Motor.c", Line=15
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Watched Data 1", DockArea=BOTTOM, x=0, y=0, w=971, h=169, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Data Sampling", DockArea=RIGHT, x=0, y=1, w=1562, h=260, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Timeline", DockArea=RIGHT, x=0, y=0, w=1562, h=516, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="200 ms / Div", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="39;0", DataGraphShowNamesAtCursor=0, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="1701;0", CodeGraphLegendShown=0, CodeGraphLegendPosition="1707;0"
+OpenWindow="Console", DockArea=BOTTOM, x=1, y=0, w=1588, h=169, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
+TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";" speed";" pwm";" angle";" target_pos";" target_speed"], ColWidths=[100;100;100;100;100;100;100]
+TableHeader="Data Sampling Setup", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[100;100;100;100;100;100;100;100;762]
+TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh"], ColWidths=[122;100;100;649]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[200;100;100;359]
+WatchedExpression="target_speed", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="target_pos", RefreshRate=5, Window=Watched Data 1
