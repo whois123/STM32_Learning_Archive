@@ -1,8 +1,8 @@
 
 
-GraphedExpression="current_attitude.roll", Color=#e56a6f, Show=0
+GraphedExpression="current_attitude.roll", Color=#e56a6f
 GraphedExpression="current_attitude.pitch", Color=#35792b, Show=0
-GraphedExpression="current_attitude.yaw", Color=#769dda
+GraphedExpression="current_attitude.yaw", Color=#769dda, Show=0
 GraphedExpression="mpu_actual_data.gx", Color=#b14f0d, Show=0
 GraphedExpression="mpu_actual_data.gy", Color=#b3c38e, Show=0
 GraphedExpression="mpu_actual_data.gz", Color=#ab7b05, Show=0
@@ -10,8 +10,8 @@ OpenDocument="main.c", FilePath="D:/Desktop/IIC/Core/Src/main.c", Line=75
 OpenDocument="stm32f1xx_hal_i2c.c", FilePath="D:/Desktop/IIC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c", Line=7554
 OpenToolbar="Debug", Floating=0, x=0, y=0
 OpenWindow="Watched Data 1", DockArea=BOTTOM, x=0, y=0, w=968, h=169, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Data Sampling", DockArea=RIGHT, x=0, y=1, w=1562, h=257, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
-OpenWindow="Timeline", DockArea=RIGHT, x=0, y=0, w=1562, h=519, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="500 ms / Div", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="54;0", DataGraphShowNamesAtCursor=0, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="1392;0", CodeGraphLegendShown=0, CodeGraphLegendPosition="1398;0"
+OpenWindow="Data Sampling", DockArea=RIGHT, x=0, y=1, w=1562, h=262, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Timeline", DockArea=RIGHT, x=0, y=0, w=1562, h=514, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="2 s / Div", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="54;0", DataGraphShowNamesAtCursor=0, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="1392;0", CodeGraphLegendShown=0, CodeGraphLegendPosition="1398;0"
 OpenWindow="Console", DockArea=BOTTOM, x=1, y=0, w=1591, h=169, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
 SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
 TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";" current_attitude.roll";" current_attitude.pitch";" current_attitude.yaw";" mpu_actual_data.gx";" mpu_actual_data.gy";" mpu_actual_data.gz"], ColWidths=[100;100;100;100;100;100;100;100]

@@ -34,7 +34,6 @@ void IMU_Update(float ax, float ay, float az, float gx, float gy, float gz, floa
     az = az / norm;
 
     // 推算理论上的重力分量
-    // 通过上一次更新后的四元数，把世界坐标系下的绝对重力向量 (0,0,1) 投影回机体坐标系
     vx = 2.0f * (q1 * q3 - q0 * q2);
     vy = 2.0f * (q0 * q1 + q2 * q3);
     vz = q0 * q0 - q1 * q1 - q2 * q2 + q3 * q3;
@@ -71,8 +70,10 @@ void IMU_Update(float ax, float ay, float az, float gx, float gy, float gz, floa
     }
 }
 
+// 获取欧拉角
+//根据q_0^2 + q_1^2 + q_2^2 + q_3^2 = 1 对计算化简，减轻算力消耗
 void IMU_GetEuler(Attitude_t *att) {
     att->roll  = atan2f(2.0f * (q0 * q1 + q2 * q3), 1.0f - 2.0f * (q1 * q1 + q2 * q2)) * 57.29578f;
-    att->pitch = asinf(2.0f * (q0 * q2 - q3 * q1)) * 57.29578f;
+    att->pitch = atan2f(2.0f * (q0 * q2 - q3 * q1), sqrtf(1.0f - (2.0f * (q0 * q2 - q3 * q1)) * (2.0f * (q0 * q2 - q3 * q1)))) * 57.29578f;
     att->yaw   = atan2f(2.0f * (q0 * q3 + q1 * q2), 1.0f - 2.0f * (q2 * q2 + q3 * q3)) * 57.29578f;
 }
