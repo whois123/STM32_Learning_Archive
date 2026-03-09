@@ -13,6 +13,7 @@ Listings/
 *.axf
 *.hex
 *.bin
+.elf
 
 *.uvguix.*
 *.uvgui.*
@@ -34,3 +35,4 @@ Listings/
 *.swp
 *.DS_Store
 Thumbs.db
+.build/
